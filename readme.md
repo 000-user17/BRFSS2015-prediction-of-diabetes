@@ -1,10 +1,13 @@
 ###数据来源
 
 **原始数据信息：**风险因素监测系统(BRFSS)是由CDC每年收集的与健康相关的电话调查。每年，该调查收集来自超过40万名美国人对与健康相关的风险行为、慢性健康状况以及预防服务使用的回应。该调查自1984年以来每年都进行。对于这个项目，使用了Kaggle上可用于2015年的数据集的CSV文件。这个原始数据集包含了441,455个人的回应，共有330个特征。这些特征要么是直接向参与者提出的问题，要么是基于个人参与者回答的计算变量。
+
 **data_process.py**即是对原始数据文件的处理脚本
+
 **原始数据集网址**：https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system?select=2015.csv
 
 **处理后的数据集网址**：https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+
 这部分数据集就是我们所用到的：**diabetes_binary_5050split_health_indicators_BRFSS2015.csv**
 
 ###脚本的执行
@@ -13,58 +16,107 @@ data文件中的**data_view.ipynb**文件为一些数据可视化处理，可以
 **start_ml.sh，start_dl_mlp.sh，start_dl_cnn.sh**在linux终端执行后可以分别在machine_learning和deep_learning中得到SVM，KNN，决策树，随机森林，以及MLP和CNN的对数据集的预测指标结果，并保存为txt文件
 
 执行过程：
+
 bash start_ml.sh
+
 bash start_dl_mlp.sh
+
 bash start_dl_cnn.sh
 
 **feature_select.ipynb**用于特征选择，内含不同的特征选择方法，并在data里生成对应的新的csv数据集文件，包括chi，pearson和f_classifi方式
 
 **用到的python库以及脚本**
+
 CUDA版本：11.4  显卡版本：1080Ti 250W 12G
+
 Package                       Version
+
 ----------------------------- -------------------
+
 absl-py                       1.0.0
+
 aiosignal                     1.2.0
+
 argon2-cffi                   21.3.0
+
 argon2-cffi-bindings          21.2.0
+
 astunparse                    1.6.3
+
 attrs                         21.4.0
+
 backcall                      0.2.0
+
 backports.functools-lru-cache 1.6.4
+
 beautifulsoup4                4.10.0
+
 bleach                        4.1.0
+
 boto3                         1.21.22
+
 botocore                      1.24.22
+
 Bottleneck                    1.3.4
+
 brotlipy                      0.7.0
+
 cached-property               1.5.2
+
 cachetools                    5.0.0
+
 certifi                       2021.10.8
+
 cffi                          1.15.0
+
 charset-normalizer            2.0.4
+
 click                         8.0.4
+
 cryptography                  36.0.0
+
 cycler                        0.11.0
+
 debugpy                       1.5.1
+
 decorator                     5.1.1
+
 defusedxml                    0.7.1
+
 distlib                       0.3.4
+
 entrypoints                   0.4
+
 filelock                      3.6.0
+
 flatbuffers                   2.0
+
 fonttools                     4.31.1
+
 frozenlist                    1.3.0
+
 gast                          0.5.3
+
 google-auth                   2.6.5
+
 google-auth-oauthlib          0.4.6
+
 google-pasta                  0.2.0
+
 grpcio                        1.43.0
+
 h5py                          3.6.0
+
 htmlmin                       0.1.12
+
 huggingface-hub               0.5.1
+
 idna                          3.3
+
 ImageHash                     4.2.1
+
 imbalanced-learn              0.10.1
+
 imblearn                      0.0
 importlib-metadata            4.11.3
 importlib-resources           5.4.0
