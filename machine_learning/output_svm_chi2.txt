@@ -1,0 +1,264 @@
+*********************svm.SVC(kernel='linear', C=1, verbose=False, max_iter=1000)********************
+train Accuracy: 65.57%
+valid Accuracy: 66.26%
+test Accuracy: 65.65%
+new data Accuracy: 65.57%
+train Precision: 66.45%
+valid Precision: 67.54%
+test Precision: 66.28%
+new data Precision: 66.45%
+train Recall: 78.40%
+valid Recall: 78.71%
+test Recall: 79.04%
+new data Recall: 78.40%
+train F1-score: 0.72
+valid F1-score: 0.73
+test F1-score: 0.72
+new data F1-score: 0.72
+train AUC-ROC: 0.69
+valid AUC-ROC: 0.70
+test AUC-ROC: 0.69
+new data AUC-ROC: 0.69
+train Confusion Matrix:
+[[12126 12598]
+ [ 6876 24953]]
+valid Confusion Matrix:
+[[1509 1526]
+ [ 859 3175]]
+test Confusion Matrix:
+[[1504 1596]
+ [ 832 3137]]
+new data Confusion Matrix:
+[[12126 12598]
+ [ 6876 24953]]
+*********************svm.SVC(kernel='linear', C=1, verbose=False, max_iter=10000)********************
+train Accuracy: 57.93%
+valid Accuracy: 56.95%
+test Accuracy: 57.60%
+new data Accuracy: 57.93%
+train Precision: 72.73%
+valid Precision: 72.39%
+test Precision: 72.09%
+new data Precision: 72.73%
+train Recall: 40.39%
+valid Recall: 39.71%
+test Recall: 39.96%
+new data Recall: 40.39%
+train F1-score: 0.52
+valid F1-score: 0.51
+test F1-score: 0.51
+new data F1-score: 0.52
+train AUC-ROC: 0.67
+valid AUC-ROC: 0.67
+test AUC-ROC: 0.66
+new data AUC-ROC: 0.67
+train Confusion Matrix:
+[[19904  4820]
+ [18972 12857]]
+valid Confusion Matrix:
+[[2424  611]
+ [2432 1602]]
+test Confusion Matrix:
+[[2486  614]
+ [2383 1586]]
+new data Confusion Matrix:
+[[19904  4820]
+ [18972 12857]]
+*********************svm.SVC(kernel='linear', C=1, verbose=False, max_iter=50000)********************
+train Accuracy: 51.97%
+valid Accuracy: 52.43%
+test Accuracy: 51.99%
+new data Accuracy: 51.97%
+train Precision: 55.38%
+valid Precision: 56.20%
+test Precision: 55.27%
+new data Precision: 55.38%
+train Recall: 75.49%
+valid Recall: 75.41%
+test Recall: 75.91%
+new data Recall: 75.49%
+train F1-score: 0.64
+valid F1-score: 0.64
+test F1-score: 0.64
+new data F1-score: 0.64
+train AUC-ROC: 0.53
+valid AUC-ROC: 0.52
+test AUC-ROC: 0.53
+new data AUC-ROC: 0.53
+train Confusion Matrix:
+[[ 5363 19361]
+ [ 7801 24028]]
+valid Confusion Matrix:
+[[ 664 2371]
+ [ 992 3042]]
+test Confusion Matrix:
+[[ 662 2438]
+ [ 956 3013]]
+new data Confusion Matrix:
+[[ 5363 19361]
+ [ 7801 24028]]
+*********************svm.SVC(kernel='linear', C=2, verbose=False, max_iter=1000)********************
+train Accuracy: 53.69%
+valid Accuracy: 54.75%
+test Accuracy: 53.13%
+new data Accuracy: 53.69%
+train Precision: 55.59%
+valid Precision: 56.64%
+test Precision: 55.21%
+new data Precision: 55.59%
+train Recall: 88.11%
+valid Recall: 88.25%
+test Recall: 87.53%
+new data Recall: 88.11%
+train F1-score: 0.68
+valid F1-score: 0.69
+test F1-score: 0.68
+new data F1-score: 0.68
+train AUC-ROC: 0.51
+valid AUC-ROC: 0.53
+test AUC-ROC: 0.52
+new data AUC-ROC: 0.51
+train Confusion Matrix:
+[[ 2318 22406]
+ [ 3783 28046]]
+valid Confusion Matrix:
+[[ 310 2725]
+ [ 474 3560]]
+test Confusion Matrix:
+[[ 282 2818]
+ [ 495 3474]]
+new data Confusion Matrix:
+[[ 2318 22406]
+ [ 3783 28046]]
+*********************svm.SVC(kernel='linear', C=2, verbose=False, max_iter=10000)********************
+train Accuracy: 57.34%
+valid Accuracy: 55.98%
+test Accuracy: 56.39%
+new data Accuracy: 57.34%
+train Precision: 69.01%
+valid Precision: 68.06%
+test Precision: 67.85%
+new data Precision: 69.01%
+train Recall: 43.93%
+valid Recall: 43.06%
+test Recall: 42.43%
+new data Recall: 43.93%
+train F1-score: 0.54
+valid F1-score: 0.53
+test F1-score: 0.52
+new data F1-score: 0.54
+train AUC-ROC: 0.64
+valid AUC-ROC: 0.62
+test AUC-ROC: 0.63
+new data AUC-ROC: 0.64
+train Confusion Matrix:
+[[18446  6278]
+ [17847 13982]]
+valid Confusion Matrix:
+[[2220  815]
+ [2297 1737]]
+test Confusion Matrix:
+[[2302  798]
+ [2285 1684]]
+new data Confusion Matrix:
+[[18446  6278]
+ [17847 13982]]
+*********************svm.SVC(kernel='linear', C=2, verbose=False, max_iter=50000)********************
+train Accuracy: 49.52%
+valid Accuracy: 50.23%
+test Accuracy: 49.61%
+new data Accuracy: 49.52%
+train Precision: 53.64%
+valid Precision: 54.62%
+test Precision: 53.63%
+new data Precision: 53.64%
+train Recall: 76.02%
+valid Recall: 75.61%
+test Recall: 75.79%
+new data Recall: 76.02%
+train F1-score: 0.63
+valid F1-score: 0.63
+test F1-score: 0.63
+new data F1-score: 0.63
+train AUC-ROC: 0.53
+valid AUC-ROC: 0.54
+test AUC-ROC: 0.53
+new data AUC-ROC: 0.53
+train Confusion Matrix:
+[[ 3810 20914]
+ [ 7634 24195]]
+valid Confusion Matrix:
+[[ 501 2534]
+ [ 984 3050]]
+test Confusion Matrix:
+[[ 499 2601]
+ [ 961 3008]]
+new data Confusion Matrix:
+[[ 3810 20914]
+ [ 7634 24195]]
+*********************svm.SVC(kernel='poly', C=1, verbose=False, max_iter=10000)********************
+train Accuracy: 56.29%
+valid Accuracy: 57.07%
+test Accuracy: 56.17%
+new data Accuracy: 56.29%
+train Precision: 56.29%
+valid Precision: 57.07%
+test Precision: 56.17%
+new data Precision: 56.29%
+train Recall: 99.93%
+valid Recall: 99.95%
+test Recall: 99.95%
+new data Recall: 99.93%
+train F1-score: 0.72
+valid F1-score: 0.73
+test F1-score: 0.72
+new data F1-score: 0.72
+train AUC-ROC: 0.48
+valid AUC-ROC: 0.49
+test AUC-ROC: 0.48
+new data AUC-ROC: 0.48
+train Confusion Matrix:
+[[   27 24697]
+ [   23 31806]]
+valid Confusion Matrix:
+[[   2 3033]
+ [   2 4032]]
+test Confusion Matrix:
+[[   4 3096]
+ [   2 3967]]
+new data Confusion Matrix:
+[[   27 24697]
+ [   23 31806]]
+*********************svm.SVC(kernel='sigmoid', C=1, verbose=False, max_iter=10000)********************
+train Accuracy: 39.17%
+valid Accuracy: 39.65%
+test Accuracy: 39.51%
+new data Accuracy: 39.17%
+train Precision: 46.21%
+valid Precision: 47.24%
+test Precision: 46.39%
+new data Precision: 46.21%
+train Recall: 49.32%
+valid Recall: 49.13%
+test Recall: 49.69%
+new data Recall: 49.32%
+train F1-score: 0.48
+valid F1-score: 0.48
+test F1-score: 0.48
+new data F1-score: 0.48
+train AUC-ROC: 0.33
+valid AUC-ROC: 0.33
+test AUC-ROC: 0.33
+new data AUC-ROC: 0.33
+train Confusion Matrix:
+[[ 6453 18271]
+ [16132 15697]]
+valid Confusion Matrix:
+[[ 821 2214]
+ [2052 1982]]
+test Confusion Matrix:
+[[ 821 2279]
+ [1997 1972]]
+new data Confusion Matrix:
+[[ 6453 18271]
+ [16132 15697]]
